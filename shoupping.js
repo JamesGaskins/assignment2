@@ -1,10 +1,15 @@
 /**
 Creates a shopping list and displays it on shopping.innerHTML
 */
-
+function yeet(){
+    var name = prompt("Shopping List", "Product Name");
+    var price = prompt("Shopping List","Product Price");
+    var amount = prompt("Shopping List", "Amount of Product");
+}
 //
 window.onload= function(){
     //You will call the functions you wrote here
+    yeet()
     }
     
     
