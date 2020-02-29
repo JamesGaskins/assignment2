@@ -25,9 +25,9 @@ window.onload= function(){
     //Prints the shopping list on the web page by changing the html code
     //list: Array of items
     function printList(list){
-        let name = prompt("Shopping List", "Name of Product");
-        let price = prompt("Shopping List", "Price of Product");
-        let count = prompt("Shopping List", "Amount of Product");
+        let name = prompt("What would you like to buy?", "E.g. milk, apple.");
+        let price = prompt("Price of the item,", "E.g. 4, 5, 6, etc.");
+        let count = prompt("Number of items", "E.g. 1, 2, 3, ect.");
         let totalCost = 0;
         if(price != null && count != null){
             totalCost += parseInt(price) * parseInt(count);
@@ -39,9 +39,9 @@ window.onload= function(){
                 list.pop();
                 break;
             }else{
-                name = prompt("Shopping List", "Name of Product");
-                price = prompt("Shopping List", "Price of Product");
-                count = prompt("Shopping List", "Amount of Product");
+                name = prompt("What would you like to buy?", "E.g. milk, apple.");
+                price = prompt("Price of the item,", "E.g. 4, 5, 6, etc.");
+                count = prompt("Number of items", "E.g. 1, 2, 3, ect.");
                 if(price != null && count!= null){
                     totalCost += parseInt(price) * parseInt(count);
                 } 
